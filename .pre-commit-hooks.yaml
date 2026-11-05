@@ -1,0 +1,10 @@
+- id: append-only-check
+  name: Advise against editing append-only files (e.g. migrations)
+  entry: append-only-check
+  language: script
+  pass_filenames: false
+  always_run: true
+  # pre-commit hides the output of passing hooks unless verbose is set,
+  # which would swallow the advisory.
+  verbose: true
+  stages: [pre-commit]

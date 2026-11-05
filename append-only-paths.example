@@ -1,0 +1,13 @@
+# Copy to .append-only-paths in the root of your project and commit it.
+# One pattern per line. A pattern matches a file or anything beneath it;
+# shell globs are allowed and `*` also matches `/`.
+
+# Laravel
+database/migrations/
+
+# Alembic
+# alembic/versions/
+# migrations/versions/        # Flask-Migrate
+
+# Django (every app's migrations directory)
+# */migrations/
