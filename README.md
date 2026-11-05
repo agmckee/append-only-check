@@ -89,7 +89,7 @@ project's `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-  - repo: https://git.example.com/your-org/append-only-check
+  - repo: https://github.com/agmckee/append-only-check
     rev: v1.0.0
     hooks:
       - id: append-only-check
